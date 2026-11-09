@@ -11,7 +11,8 @@
   "sourceApiVersion" : "62.0",
   "packageAliases" : {
     "RabitE2ECreatePkg" : "0Hog50000001b8nCAA",
-    "RabitE2ECreatePkg@1.0.0.1" : "04tg5000000GpD3AAK"
+    "RabitE2ECreatePkg@1.0.0.1" : "04tg5000000GpD3AAK",
+    "RabitE2ECreatePkg@1.0.0.2" : "04tg5000000GsIzAAK"
   },
   "name" : "rabit-e2e-sfdx-fixtures"
 }
