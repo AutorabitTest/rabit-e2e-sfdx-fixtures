@@ -8,7 +8,7 @@ Each branch is one fixture; tests point at it through `application-it.yaml`.
 | Branch | Layout | Used by |
 |---|---|---|
 | `sfdxvc2sf-source` | SFDX project: `sfdx-project.json` + package directory `force-app` | `SfdxVc2SfStartBuildET` |
-| `upvc2sf-install` | Unlocked package `RabitE2EInstallPkg` (`force-app`) with a promoted version in `packageAliases` | `UpVc2SfStartBuildET` |
+| `upvc2sf-install` | Unlocked package `RabitE2EInstallPkg` (`force-app`) with two promoted versions in `packageAliases`, oldest first | `UpVc2SfStartBuildET` |
 | `cupvc2sf-create` | Unlocked package `RabitE2ECreatePkg` (`force-app`); each run adds its new version to `packageAliases` | `CupVc2SfStartBuildET` |
 
 Conventions:
