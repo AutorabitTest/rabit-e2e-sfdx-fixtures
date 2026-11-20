@@ -9,6 +9,7 @@ Each branch is one fixture; tests point at it through `application-it.yaml`.
 |---|---|---|
 | `sfdxvc2sf-source` | SFDX project: `sfdx-project.json` + package directory `force-app` | `SfdxVc2SfStartBuildET` |
 | `vc-sfdx-build` | `sfdxvc2sf-source` plus a permission set and a profile (class access, login IP range, user permission), for the Package from VC build options on an SFDX repository | `VcPackageStartBuildET` |
+| `sfdxvc2sf-visibility` | `vc-sfdx-build`'s first commit, with the profile also granting access to `RabitE2EPhantomClass`, a class no org or package has, for the Ignore missing visibility settings test | `SfdxVc2SfStartBuildET` |
 
 Conventions:
 - One fixture per branch, named after the job type and the variant it exercises.
