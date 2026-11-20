@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Fixture for rabit's e2e tests; grants nothing.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Rabit E2E SFDX Permission Set</label>
+</PermissionSet>
