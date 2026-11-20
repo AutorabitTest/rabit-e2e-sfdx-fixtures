@@ -8,7 +8,7 @@ Each branch is one fixture; tests point at it through `application-it.yaml`.
 | Branch | Layout | Used by |
 |---|---|---|
 | `sfdxvc2sf-source` | SFDX project: `sfdx-project.json` + package directory `force-app` | `SfdxVc2SfStartBuildET` |
-| `vc-sfdx-build` | `sfdxvc2sf-source` plus a permission set and a profile (class access, login IP range, user permission), for the Package from VC build options on an SFDX repository | `VcPackageStartBuildET` |
+| `vc-sfdx-build` | `sfdxvc2sf-source` plus a permission set and a profile (class access, login IP range, user permission), then a class added and deleted again in the next commit, for the Package from VC build options on an SFDX repository | `VcPackageStartBuildET` |
 
 Conventions:
 - One fixture per branch, named after the job type and the variant it exercises.
