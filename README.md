@@ -8,6 +8,7 @@ Each branch is one fixture; tests point at it through `application-it.yaml`.
 | Branch | Layout | Used by |
 |---|---|---|
 | `sfdxvc2sf-source` | SFDX project: `sfdx-project.json` + package directory `force-app` | `SfdxVc2SfStartBuildET` |
+| `vc-sfdx-sca-new` | `sfdxvc2sf-source` plus one commit that modifies `RabitE2ESfdxClassB` and adds `RabitE2ESfdxClassE`, for Apex PMD on newly added types | `VcPackageStartBuildET` |
 
 Conventions:
 - One fixture per branch, named after the job type and the variant it exercises.
