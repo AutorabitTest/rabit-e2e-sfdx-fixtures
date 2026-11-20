@@ -8,6 +8,7 @@ Each branch is one fixture; tests point at it through `application-it.yaml`.
 | Branch | Layout | Used by |
 |---|---|---|
 | `sfdxvc2sf-source` | SFDX project: `sfdx-project.json` + package directory `force-app` | `SfdxVc2SfStartBuildET` |
+| `sfdxvc2sf-destructive` | `sfdxvc2sf-source` plus `ApexClassTest3` (a copy of the class in the e2e org), which the next commit deletes while changing `RabitE2ESfdxClassA`, for the Run destructive changes test | `SfdxVc2SfStartBuildET` |
 
 Conventions:
 - One fixture per branch, named after the job type and the variant it exercises.
